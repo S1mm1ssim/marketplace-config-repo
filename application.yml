@@ -1,3 +1,16 @@
+logging:
+  level:
+    root: info
+    com.modsensoftware.marketplace: debug
+
+default:
+  page:
+    size: 20
+  role: MANAGER
+  role-prefix: ROLE_
+  jwt-realm-access-claim: realm_access
+  jwt-roles-claim: roles
+
 exception:
   message:
     categoryNotFound: "Category entity with id=%s is not present."
