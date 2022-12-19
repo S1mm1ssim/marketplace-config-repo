@@ -1,0 +1,8 @@
+idm:
+  realm-name: "marketplace"
+  server-url: "http://localhost:8079"
+  client-id: "idm-client"
+  client-secret: "xRKE2WYIcZr5KhYyy7JeGSLCTIn7Y0BX"
+  admin-username: "idm-admin"
+  admin-password: "admin"
+  pool-size: 10
