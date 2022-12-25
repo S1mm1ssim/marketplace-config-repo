@@ -2,7 +2,7 @@ idm:
   realm-name: "marketplace"
   server-url: "http://localhost:8079"
   client-id: "idm-client"
-  client-secret: "xRKE2WYIcZr5KhYyy7JeGSLCTIn7Y0BX"
+  client-secret: "0mQ9NcffKRJ6043JmDj4YDsOUguRNIJr"
   admin-username: "idm-admin"
   admin-password: "admin"
   pool-size: 10
@@ -21,7 +21,7 @@ spring:
           keycloak:
             authorization-grant-type: client_credentials
             client-id: app-service
-            client-secret: r3wbpctimdBWKxeCxImbUxhqYk6ZN1ZX
+            client-secret: TltbhY1HSvNczFkrqRBVAjhvwKLhpXB7
         provider:
           keycloak:
             token-uri: http://localhost:8079/realms/marketplace/protocol/openid-connect/token
