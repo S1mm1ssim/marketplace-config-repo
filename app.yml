@@ -9,7 +9,7 @@ spring:
           COMPANY-SERVICE:
             authorization-grant-type: client_credentials
             client-id: app-service
-            client-secret: TltbhY1HSvNczFkrqRBVAjhvwKLhpXB7
+            client-secret: ySKr8N8KR2ec6dmgS2T8zY9GgPlOemLb
         provider:
           COMPANY-SERVICE:
             token-uri: http://localhost:8079/realms/marketplace/protocol/openid-connect/token
@@ -30,7 +30,7 @@ idm:
   realm-name: "marketplace"
   server-url: "http://localhost:8079"
   client-id: "idm-client"
-  client-secret: "0mQ9NcffKRJ6043JmDj4YDsOUguRNIJr"
+  client-secret: "DzHrJErFr0n91UY7iI67DxXpn0ayXeYn"
   admin-username: "idm-admin"
   admin-password: "admin"
   pool-size: 10
