@@ -18,10 +18,10 @@ spring:
     oauth2:
       client:
         registration:
-          keycloak:
+          COMPANY-SERVICE:
             authorization-grant-type: client_credentials
             client-id: app-service
             client-secret: TltbhY1HSvNczFkrqRBVAjhvwKLhpXB7
         provider:
-          keycloak:
+          COMPANY-SERVICE:
             token-uri: http://localhost:8079/realms/marketplace/protocol/openid-connect/token
