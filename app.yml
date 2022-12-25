@@ -7,11 +7,9 @@ idm:
   admin-password: "admin"
   pool-size: 10
 
-default:
-  security:
-    oauth-client-registration-id: keycloak
-  authorization-header-name: Authorization
-  bearer-token-prefix: Bearer
+feign:
+  oauth2:
+    enabled: true
 
 spring:
   security:
