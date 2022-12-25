@@ -1,19 +1,9 @@
-idm:
-  realm-name: "marketplace"
-  server-url: "http://localhost:8079"
-  client-id: "idm-client"
-  client-secret: "0mQ9NcffKRJ6043JmDj4YDsOUguRNIJr"
-  admin-username: "idm-admin"
-  admin-password: "admin"
-  pool-size: 10
-
-feign:
-  oauth2:
-    enabled: true
-
 spring:
   security:
     oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8079/realms/marketplace
       client:
         registration:
           COMPANY-SERVICE:
@@ -23,3 +13,41 @@ spring:
         provider:
           COMPANY-SERVICE:
             token-uri: http://localhost:8079/realms/marketplace/protocol/openid-connect/token
+
+feign:
+  oauth2:
+    enabled: true
+
+default:
+  page:
+    size: 20
+  role: MANAGER
+  role-prefix: ROLE_
+  jwt-realm-access-claim: realm_access
+  jwt-roles-claim: roles
+
+idm:
+  realm-name: "marketplace"
+  server-url: "http://localhost:8079"
+  client-id: "idm-client"
+  client-secret: "0mQ9NcffKRJ6043JmDj4YDsOUguRNIJr"
+  admin-username: "idm-admin"
+  admin-password: "admin"
+  pool-size: 10
+
+exception:
+  message:
+    sessionFactoryInitFail: "Initialization of SessionFactory failed"
+    categoryNotFound: "Category entity with id=%s is not present."
+    itemNotFound: "Item entity with uuid=%s is not present."
+    positionNotFound: "Position entity with id=%s is not found."
+    userNotFound: "User entity with uuid=%s is not found."
+    invalidCreatedBetweenFilter: "Filter 'created' = %s is invalid"
+    nonUniqueUser: "User with such email %s or such username %s already exists"
+    itemVersionsMismatch: "Provided item version does not match with the one in the database"
+    positionVersionsMismatch: "Provided position version does not match with the one in the database"
+    noItemVersionProvided: "No version for item with id %s was provided"
+    noPositionVersionProvided: "No version for position with id %s was provided"
+    insufficientItemsInStock: "Not enough items in stock for position with id=%s. Wanted amount=%s. Currently in stock=%s"
+    insufficientOrderAmount: "Wanted amount=%s is less than position's(id=%s) minimum amount=%s"
+    userPasswordAbsent: "Could not update user as password is not present."
