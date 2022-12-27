@@ -9,7 +9,7 @@ spring:
           APP:
             authorization-grant-type: client_credentials
             client-id: user-transaction-service
-            client-secret: DkLwZA5Dj9oZ41AQ5dVZO2okMTFUD6wV
+            client-secret: WOSy861JskCIlaU6K9jysc7K5t390kKY
         provider:
           APP:
             token-uri: "{KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
