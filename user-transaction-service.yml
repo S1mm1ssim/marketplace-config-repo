@@ -1,0 +1,34 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8079/realms/marketplace
+      client:
+        registration:
+          USER-TRANSACTION-SERVICE:
+            authorization-grant-type: client_credentials
+            client-id: app-service
+            client-secret: f4tvbpZSzkh9zXARBUjqu5QbbgjwJ1Py
+        provider:
+          USER-TRANSACTION-SERVICE:
+            token-uri: http://localhost:8079/realms/marketplace/protocol/openid-connect/token
+
+feign:
+  oauth2:
+    enabled: true
+
+default:
+  page:
+    size: 20
+  role: MANAGER
+  role-prefix: ROLE_
+  jwt-realm-access-claim: realm_access
+  jwt-roles-claim: roles
+
+exception:
+  message:
+    sessionFactoryInitFail: "Initialization of SessionFactory failed"
+    insufficientItemsInStock: "Not enough items in stock for position with id=%s. Wanted amount=%s. Currently in stock=%s"
+    insufficientOrderAmount: "Wanted amount=%s is less than position's(id=%s) minimum amount=%s"
+    noPositionVersionProvided: "No version for position with id %s was provided"
