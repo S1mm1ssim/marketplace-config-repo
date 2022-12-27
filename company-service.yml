@@ -3,7 +3,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: "{KEYCLOAK_URI:http://localhost:8080}/realms/marketplace"
+          issuer-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace"
 
 default:
   page:

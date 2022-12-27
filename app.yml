@@ -3,7 +3,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: "{KEYCLOAK_URI:http://localhost:8080}/realms/marketplace"
+          issuer-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace"
       client:
         registration:
           COMPANY-SERVICE:
@@ -12,7 +12,7 @@ spring:
             client-secret: YeqGE6TNqG7CVjxVW6Ikx17rTzsy1hDw
         provider:
           COMPANY-SERVICE:
-            token-uri: "{KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
+            token-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
 
 feign:
   oauth2:
@@ -28,7 +28,7 @@ default:
 
 idm:
   realm-name: "marketplace"
-  server-url: "{KEYCLOAK_URI:http://localhost:8080}"
+  server-url: "${KEYCLOAK_URI:http://localhost:8080}"
   client-id: "idm-client"
   client-secret: "5NFp2WDlNIIagbqr1XFhMq9St3KdMUNY"
   admin-username: "idm-admin"
