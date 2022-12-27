@@ -6,12 +6,12 @@ spring:
           issuer-uri: http://localhost:8079/realms/marketplace
       client:
         registration:
-          USER-TRANSACTION-SERVICE:
+          APP:
             authorization-grant-type: client_credentials
             client-id: app-service
             client-secret: f4tvbpZSzkh9zXARBUjqu5QbbgjwJ1Py
         provider:
-          USER-TRANSACTION-SERVICE:
+          APP:
             token-uri: http://localhost:8079/realms/marketplace/protocol/openid-connect/token
 
 feign:
