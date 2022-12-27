@@ -3,7 +3,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8079/realms/marketplace
+          issuer-uri: "{KEYCLOAK_URI:http://localhost:8080}/realms/marketplace"
       client:
         registration:
           APP:
@@ -12,7 +12,7 @@ spring:
             client-secret: DkLwZA5Dj9oZ41AQ5dVZO2okMTFUD6wV
         provider:
           APP:
-            token-uri: http://localhost:8079/realms/marketplace/protocol/openid-connect/token
+            token-uri: "{KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
 
 feign:
   oauth2:
