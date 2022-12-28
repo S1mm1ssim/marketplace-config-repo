@@ -9,7 +9,7 @@ spring:
           COMPANY-SERVICE:
             authorization-grant-type: client_credentials
             client-id: app-service
-            client-secret: {cipher}AQCLBcPxBwOLpFFAZN7M0xq1xDZNmUQyzOsupWetNOu/rdj8BfloU1RlMjA/ygPl4/D9MNuUU4D+3EjEIOojoqpDXw9+bfHOMIJXeGAx+F+Dro5+v7C4As6T4t7RHKf6VcU0iYpYYJcV3gIiOEbmndMTgPA6mAr8b/KLQc3JcjkpRFSlrCN4+rp15tMicL645Z6I9nwjAVJk6br64PFat42WQghi71NjwFktK4OysZQL3hnC494xn/bV9bnvkBLKRj6uXctDFV5Fopd4V8xQNm+nU45WhGUzdhk0kPkbieOTQl5cd5iA/Xu3HIYehPhp4XOZKSr3DjTrYqdfYDkG4XANCAxjmDpbYDZwuQp6q6UIWLgkZ99QmbtQLOoun0dcVTfcFBsqsnyndWUyxp2ejeSraz4fWqWPZC5jTyVcU3f4hw==
+            client-secret: "{cipher}AQCLBcPxBwOLpFFAZN7M0xq1xDZNmUQyzOsupWetNOu/rdj8BfloU1RlMjA/ygPl4/D9MNuUU4D+3EjEIOojoqpDXw9+bfHOMIJXeGAx+F+Dro5+v7C4As6T4t7RHKf6VcU0iYpYYJcV3gIiOEbmndMTgPA6mAr8b/KLQc3JcjkpRFSlrCN4+rp15tMicL645Z6I9nwjAVJk6br64PFat42WQghi71NjwFktK4OysZQL3hnC494xn/bV9bnvkBLKRj6uXctDFV5Fopd4V8xQNm+nU45WhGUzdhk0kPkbieOTQl5cd5iA/Xu3HIYehPhp4XOZKSr3DjTrYqdfYDkG4XANCAxjmDpbYDZwuQp6q6UIWLgkZ99QmbtQLOoun0dcVTfcFBsqsnyndWUyxp2ejeSraz4fWqWPZC5jTyVcU3f4hw=="
         provider:
           COMPANY-SERVICE:
             token-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
@@ -30,9 +30,9 @@ idm:
   realm-name: "marketplace"
   server-url: "${KEYCLOAK_URI:http://localhost:8080}"
   client-id: "idm-client"
-  client-secret: {cipher}AQBv6gUZiBQqumBwf65jl2vKtTmVLJyZZx5+1Gv7fgX69/UkJK4g86pD6sFDsZygGPjrnBUkV/vMJM2ZzbSlSNoNUcMIsikgBbr7g6AWDFq5u4aslddPpWMrsEUjYjXw5tmgHniSy6ZrMr3E6oGg3ZZJqaj0MbuREiSu2+gGmIYyimhEXpX7iblRR4xJAVFs41IvEc2RlJOgfcT1+LaIP6BBcV30bWTdzwvUx9YHw9HRVcBe+G44KbFZ5DxfVvGJUQHPFO2DqsqWnih72f59oQyjoSlrGp3gLbntNhVtP2lXmJ4RcChsO0JESG5tr4Frw7J5eSGteGhQ0ULOyILZ+6wii7gY0NW98o3KXCIWBaVn3ye9k4tYrXqLf3rthsEJiGRQMgFPaKLRdAKnTebjDySeygZ+qLBOoj8vOJWD0ZvHhQ==
+  client-secret: "{cipher}AQBv6gUZiBQqumBwf65jl2vKtTmVLJyZZx5+1Gv7fgX69/UkJK4g86pD6sFDsZygGPjrnBUkV/vMJM2ZzbSlSNoNUcMIsikgBbr7g6AWDFq5u4aslddPpWMrsEUjYjXw5tmgHniSy6ZrMr3E6oGg3ZZJqaj0MbuREiSu2+gGmIYyimhEXpX7iblRR4xJAVFs41IvEc2RlJOgfcT1+LaIP6BBcV30bWTdzwvUx9YHw9HRVcBe+G44KbFZ5DxfVvGJUQHPFO2DqsqWnih72f59oQyjoSlrGp3gLbntNhVtP2lXmJ4RcChsO0JESG5tr4Frw7J5eSGteGhQ0ULOyILZ+6wii7gY0NW98o3KXCIWBaVn3ye9k4tYrXqLf3rthsEJiGRQMgFPaKLRdAKnTebjDySeygZ+qLBOoj8vOJWD0ZvHhQ=="
   admin-username: "idm-admin"
-  admin-password: {cipher}AQBLzYCm0+iG8kFc6utZzejHptbFM5NL84TfhSZzL6NqjRkGBriZloLKapFvc2s4DpUAaud72TmpE5et6KRv4SOAEiub1X5uGtZ7inBTfa2vt+l18bKgm1zPvl5WdSVgNmbZle6ATyQOmZxrEkc4OegKbr8TLNLLWaFgPXjKzD7GpLxga4ZkV67i5+gUjWLzrQ3l8WNpLADrMidyspdgOuCS3xAp/AemB3Ilj6RBVOuCEl5RUdaGsG7/z7Ntt7d1FdtLKSoKXTcZtBaebBIO6bS7Y/ZLaT7e3Sf7SrlCYTApD90M6LdMeuvvWMfZmTHxMmc5ubHXgC+Hiy7Fy9oNHAAbxo0BSiAJhNY6s1Xr1T/c5454E24bhwaKRmngRvLIJVg=
+  admin-password: "{cipher}AQBLzYCm0+iG8kFc6utZzejHptbFM5NL84TfhSZzL6NqjRkGBriZloLKapFvc2s4DpUAaud72TmpE5et6KRv4SOAEiub1X5uGtZ7inBTfa2vt+l18bKgm1zPvl5WdSVgNmbZle6ATyQOmZxrEkc4OegKbr8TLNLLWaFgPXjKzD7GpLxga4ZkV67i5+gUjWLzrQ3l8WNpLADrMidyspdgOuCS3xAp/AemB3Ilj6RBVOuCEl5RUdaGsG7/z7Ntt7d1FdtLKSoKXTcZtBaebBIO6bS7Y/ZLaT7e3Sf7SrlCYTApD90M6LdMeuvvWMfZmTHxMmc5ubHXgC+Hiy7Fy9oNHAAbxo0BSiAJhNY6s1Xr1T/c5454E24bhwaKRmngRvLIJVg="
   pool-size: 10
 
 exception:
