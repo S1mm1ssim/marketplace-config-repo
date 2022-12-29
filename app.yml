@@ -45,7 +45,6 @@ exception:
     invalidCreatedBetweenFilter: "Filter 'created' = %s is invalid"
     nonUniqueUser: "User with such email %s or such username %s already exists"
     itemVersionsMismatch: "Provided item version does not match with the one in the database"
-    positionVersionsMismatch: "Provided position version does not match with the one in the database"
     noItemVersionProvided: "No version for item with id %s was provided"
     userPasswordAbsent: "Could not update user as password is not present."
     positionCreatedByAnotherPersonMessage: "Could not execute operation. Position was created by another person."
