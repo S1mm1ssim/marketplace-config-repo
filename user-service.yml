@@ -8,8 +8,8 @@ spring:
         registration:
           COMPANY-SERVICE:
             authorization-grant-type: client_credentials
-            client-id: app-service
-            client-secret: "{cipher}AQCLBcPxBwOLpFFAZN7M0xq1xDZNmUQyzOsupWetNOu/rdj8BfloU1RlMjA/ygPl4/D9MNuUU4D+3EjEIOojoqpDXw9+bfHOMIJXeGAx+F+Dro5+v7C4As6T4t7RHKf6VcU0iYpYYJcV3gIiOEbmndMTgPA6mAr8b/KLQc3JcjkpRFSlrCN4+rp15tMicL645Z6I9nwjAVJk6br64PFat42WQghi71NjwFktK4OysZQL3hnC494xn/bV9bnvkBLKRj6uXctDFV5Fopd4V8xQNm+nU45WhGUzdhk0kPkbieOTQl5cd5iA/Xu3HIYehPhp4XOZKSr3DjTrYqdfYDkG4XANCAxjmDpbYDZwuQp6q6UIWLgkZ99QmbtQLOoun0dcVTfcFBsqsnyndWUyxp2ejeSraz4fWqWPZC5jTyVcU3f4hw=="
+            client-id: user-service
+            client-secret: "{cipher}AQBIUz6coXofaGo1tiFJKPUtrys+PLY5dWYkj2t5Lf+cRQcx2VmymplFzM+uS4akXD+iv592BQB3MxFaABZyChgj50oCxvG999qjvOYqCV4TI/v/zb7KdlydL6FgxA+DXV93b79BJy+JMOc/hK8EqQbW0I3d/3MOU5OsKgviECSvC1dD865ggts5B28m6f2Xpad6ZbFV/ZWH/qafp95P+sFToVUGMQWCKnOxgfbjXfJftHq7wE8LVPDbaCTo0+17cgAbjRlqlHDzji2HeuFhARpZRNAjjBX0YsXkXhy2N5R40j3rFxB/CAMa/K6FUHRnf93Y/pQU6c55QCFIlj+OtbIZxJDzD2Hyi2MGKcrAZcUEnEs7s96YlavUuv3Qea1diBT2HXHAgZGfty7WbkLcsc40gxg29dLu1Y7vXFq+I/h0FA=="
         provider:
           COMPANY-SERVICE:
             token-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
@@ -38,13 +38,7 @@ idm:
 exception:
   message:
     sessionFactoryInitFail: "Initialization of SessionFactory failed"
-    categoryNotFound: "Category entity with id=%s is not present."
-    itemNotFound: "Item entity with uuid=%s is not present."
-    positionNotFound: "Position entity with id=%s is not found."
     userNotFound: "User entity with uuid=%s is not found."
     invalidCreatedBetweenFilter: "Filter 'created' = %s is invalid"
     nonUniqueUser: "User with such email %s or such username %s already exists"
-    itemVersionsMismatch: "Provided item version does not match with the one in the database"
-    noItemVersionProvided: "No version for item with id %s was provided"
     userPasswordAbsent: "Could not update user as password is not present."
-    positionCreatedByAnotherPersonMessage: "Could not execute operation. Position was created by another person."
