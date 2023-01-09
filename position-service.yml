@@ -5,6 +5,11 @@ spring:
         jwt:
           issuer-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace"
 reactive-feign:
+  http-client:
+    read-timeout: 3000
+    write-timeout: 3000
+    connect-timeout: 3000
+    response-timeout: 3000
   oauth2:
     client:
       registration:
@@ -33,3 +38,4 @@ exception:
     itemVersionsMismatch: "Provided item version does not match with the one in the database"
     noItemVersionProvided: "No version for item with id %s was provided"
     positionCreatedByAnotherPersonMessage: "Could not execute operation. Position was created by another person."
+    creatorNotFound: "User who created this position is no longer present."
