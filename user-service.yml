@@ -17,6 +17,7 @@ spring:
 feign:
   oauth2:
     enabled: true
+    clientRegistrationId: "COMPANY-SERVICE"
 
 feign-clients:
   company-client:

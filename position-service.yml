@@ -13,12 +13,12 @@ reactive-feign:
   oauth2:
     client:
       registration:
-        position-service:
+        USER-SERVICE:
           authorization-grant-type: client_credentials
           client-id: position-service
           client-secret: "{cipher}AQAPW+pWuZpZFirFApHlAPsRt5QeNjOlIb594Mi2ZntVcxnR9EixDqVvVocBGFwDqPj6m4Ge164SN9St7DG6HbmAuR7s45TY5KgxMWr7xympaUyTz5S3948eWYR+ZkpnMlog46GwPLI/CRe0K+0WChpZCXifSdwNaH3pbHQZbYBUvNeddpusb/kbO477p+jQuSXXziDPAt6V2JoQIsD0FmkAx3Heoe+JcKnobol8pzBuIgn1Bi80IlYlwvZ5ZsKWcWNI6lqEbfo0zot1rSbCrOZukc7EOPFEdiKg3P2f/GYNASv6uCMnFcMoeAMYItfYBz+6LBOQpCQOnfrTWbujd0+R5KmiBcoRbQwYLAhQxUivCbjdt7lQnokjQPuXKT39LWihmEo3pIvkcdyNOCCy+ksH1+7Rlu6qGDAimm6AhWUTsw=="
       provider:
-        position-service:
+        USER-SERVICE:
           token-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
 
 reactive-feign-clients:
