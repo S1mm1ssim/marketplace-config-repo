@@ -16,7 +16,7 @@ reactive-feign:
         USER-SERVICE:
           authorization-grant-type: client_credentials
           client-id: position-service
-          client-secret: "{cipher}AQAPW+pWuZpZFirFApHlAPsRt5QeNjOlIb594Mi2ZntVcxnR9EixDqVvVocBGFwDqPj6m4Ge164SN9St7DG6HbmAuR7s45TY5KgxMWr7xympaUyTz5S3948eWYR+ZkpnMlog46GwPLI/CRe0K+0WChpZCXifSdwNaH3pbHQZbYBUvNeddpusb/kbO477p+jQuSXXziDPAt6V2JoQIsD0FmkAx3Heoe+JcKnobol8pzBuIgn1Bi80IlYlwvZ5ZsKWcWNI6lqEbfo0zot1rSbCrOZukc7EOPFEdiKg3P2f/GYNASv6uCMnFcMoeAMYItfYBz+6LBOQpCQOnfrTWbujd0+R5KmiBcoRbQwYLAhQxUivCbjdt7lQnokjQPuXKT39LWihmEo3pIvkcdyNOCCy+ksH1+7Rlu6qGDAimm6AhWUTsw=="
+          client-secret: "{cipher}AQBnsjYlC775ZGbgWfe1nGXAoPA9/G4NQ5M74iRgZlaLI5u3zcj6VqGjX7eD6BG/nYh5J4UXwt8XWHQikECfAc3+ufZSpeHeNq0JLHnrZ62xR7h1TJCiBBb8DQptSbc8d/91aJxZozlfa7er+w1zqGqjeGD+p5uK9EV3YBnV15+wHgnTosjpylMpAoV6drdkwOlFc8j6SN61Ynm7O+fwz+XNybZO08F87Fmz+6KbrULLV+G9ZG4o61ZhVhhD6AMJYcnahd+aaIABDGerwzG2inYwpetbD5i7IKpqBseUqlTvdU0Qc9YRsMT6SjG4IgqbnNDcSCLgG4UQVXyn8v5hvN+CkoSruGpyxka/IpUs4hweRaIFsWasiSQablB0lPM02vjF4n1DJK4pQjrtUi4jU3WZKXc7gkYtK5I5xhA7JauNBA=="
       provider:
         USER-SERVICE:
           token-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
