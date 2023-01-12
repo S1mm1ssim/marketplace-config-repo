@@ -1,0 +1,9 @@
+server:
+  shutdown: graceful
+eureka:
+  client:
+    enabled: false
+logging:
+  level:
+    root: debug
+    com.modsensoftware.marketplace: debug
