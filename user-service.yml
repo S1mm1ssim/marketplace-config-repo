@@ -18,6 +18,12 @@ feign:
   oauth2:
     enabled: true
 
+feign-clients:
+  company-client:
+    name: COMPANY-SERVICE
+    url: "${COMPANY_SERVICE_URL:}"
+    path: "/api/v1/companies"
+
 default:
   page:
     size: 20

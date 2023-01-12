@@ -21,6 +21,12 @@ reactive-feign:
         position-service:
           token-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
 
+reactive-feign-clients:
+  user-client:
+    name: USER-SERVICE
+    url: "${USER_SERVICE_URL:}"
+    path: "/api/v1/users"
+
 default:
   page:
     size: 20

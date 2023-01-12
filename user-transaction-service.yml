@@ -23,6 +23,16 @@ feign:
   oauth2:
     enabled: true
 
+feign-clients:
+  user-client:
+    name: USER-SERVICE
+    url: "${USER_SERVICE_URL:}"
+    path: "/api/v1/users"
+  position-client:
+    name: POSITION-SERVICE
+    url: "${POSITION_SERVICE_URL:}"
+    path: "/api/v1/positions"
+
 default:
   page:
     size: 20
