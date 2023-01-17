@@ -1,9 +1,0 @@
-spring:
-  security:
-    oauth2:
-      client:
-        registration:
-          COMPANY-SERVICE:
-            client-secret: "{cipher}AQAskQi8MVXHfxjEqB7Zb3bH+hhxoJLZamp9w3Re2kELhUitMJAdaPuN2VaVcrzG2ANR1NS32DERVgarBnftaXv91dz2zp0wO7yINbf7Ha9jpDZJ3C3S1mBuL2YtHdIGfg2uryMPjBKV4ESHBKy0KFfrtz6qf/jL9EB+ddRK88ClkcT/LQeDfFMH+P6rTgv/sQxWf+p15k4XMXESyyBs9vSfYovQM3w/ZoyzDFiMG++CTosoOHUbyabXE6amq9u3ILahsphe74lGXdChRKPLsI/ePEOEGrKKPyAEs/YciGinkXV6ug3u5zlQTHFZMjavp4HKzUX74iLYaWeguRRnq4UKMkMgwq8QHDjsE5qe2x9IOQo4L7tHHIjqZB4xLp9NwjrizBepoAm5X49bjHgtTuvMefAq4EXsqZpVxWwLxa/OiA=="
-idm:
-  client-secret: "{cipher}AQAoIOKkx3q0QiEH676EnPKkp/j36KgCFilOS3OShCx8uyFoCgCVJzec/bRnkurb5x+jaeAD2gp6H31Cz+vLloQYvnDtvN8i1gDWlzU5ZAxTgPS/VvWXD3rGNcfQq7IH31IszEVdb4jSsc8kK3ScUuLCCmOTSsBEY/0G2jIbTZs1e7c8BgqHrPG5Ld+4ez47aqkMrcfM+9ePRZoRe7FiWo0MAkqM7Qhgx7m2NqAZHAewrykcf+jRTIeHg54K5iCZPH62QUtd8/DmKe/GGzaZOl+kVyqxjoH77bYLyVIuAvsqRyAZ0qce7mFn2rf3AIwFeReY+3J3p5tFiGA1Kh+4PsdpNkTfAnFpaYfnQ4PNFidu+Gq+cAfJ5H4PdKVj3DjhhfWHqSiUm22KBGvI9ME5mz4lwyvZMVbrknfm5P7iSEEm/Q=="

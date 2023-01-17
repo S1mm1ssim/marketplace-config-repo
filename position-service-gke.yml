@@ -1,0 +1,6 @@
+reactive-feign:
+  oauth2:
+    client:
+      registration:
+        USER-SERVICE:
+          client-secret: "{cipher}AQA2omCm32hZWbyP2gzqQxsLpRWyNm8rPCag4HeZ7l734BFEz6hAffUueDXT9kBgDlHkdYizTGc2dWddbRIcP7imtkhXpp6gWBGG4y3uDP9S3OH0MecvCNu/O4kl9gF2WR7uzfxECWkI0Q5WvcCnMNOAfq9wklCMSP8ZZnFl4efpKHOFrpfZCD8PdFlwjzhNXr0/akdnrKRdHnQrrC+jas7iTWACw4BxhL0C9PkmqPd7PjcV0a++uhj/jgFC2ulBhm9rmeSsY+1AP4Dzb4OS+SfSlO6FsN8qygZW7kjzmZurr0qKppV/WAh7jdTTufesLGFBu6uBRXkH0Z/lcnomUCle0JV/7Qdmzh5GsS9joQMC7WZRyjQ+4MJ43gynwE5t/kueuMtUjTCK5aftIoCQe3p5UlkxjmLjiDnpqkxtqNdMNQ=="

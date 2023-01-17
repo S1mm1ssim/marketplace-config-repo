@@ -1,7 +1,0 @@
-spring:
-  security:
-    oauth2:
-      client:
-        registration:
-          CLIENT-SERVICES:
-            client-secret: "{cipher}AQB3QYLoh1d7G+3QK4Mxl3eWef6bBPW0HB0SmyOAGNWeloXj1sHaZUArGXe1j1Izp9ZIrWf5uVY4Su7rFpEDX/nAMUgQpS8VHTqgLuYuthXdz6xhskmkXVn7JKG2+yY0VK9flXFfga992CISe9nAja9NXX+OJax4dEKJGQAt9tPuHGEAnrGZ2wJQ2KoMyq7ypWZ2VgXgbBe4GBebwdQGCT1Uoa6uvB60xsUK10rSQzCP0MUSdgfV3PmHeqnZzOXQ3TjaCY0/2XlXTbuA2VqHW5p6+2Ixn92hQu0CwPhlMiF8bbLDRmFf6fGXNbxioO7/QyNk/ljrSgpJtu3oUGmrMDBrwt7HXr1lrl5tjMYo/kQMcjZLrJB6ZZ1LEOcbkI7aMF3B71YkZ+t9Eb8ZkWEUYAdyEJHx4XQMmC3DI9KabbLwqg=="

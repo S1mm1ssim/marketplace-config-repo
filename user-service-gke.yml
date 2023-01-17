@@ -1,0 +1,9 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          COMPANY-SERVICE:
+            client-secret: "{cipher}AQA2omCm32hZWbyP2gzqQxsLpRWyNm8rPCag4HeZ7l734BFEz6hAffUueDXT9kBgDlHkdYizTGc2dWddbRIcP7imtkhXpp6gWBGG4y3uDP9S3OH0MecvCNu/O4kl9gF2WR7uzfxECWkI0Q5WvcCnMNOAfq9wklCMSP8ZZnFl4efpKHOFrpfZCD8PdFlwjzhNXr0/akdnrKRdHnQrrC+jas7iTWACw4BxhL0C9PkmqPd7PjcV0a++uhj/jgFC2ulBhm9rmeSsY+1AP4Dzb4OS+SfSlO6FsN8qygZW7kjzmZurr0qKppV/WAh7jdTTufesLGFBu6uBRXkH0Z/lcnomUCle0JV/7Qdmzh5GsS9joQMC7WZRyjQ+4MJ43gynwE5t/kueuMtUjTCK5aftIoCQe3p5UlkxjmLjiDnpqkxtqNdMNQ=="
+idm:
+  client-secret: "{cipher}AQArOnUVqV70cEOz8ejptycC7r55a6IncJpGGTbg+4EOY/vtJP4q+GUaiehbUUsDCca32fADtCiP+p2S2zvXFw98gnIRdfOvDyPJnp3SmeptlgpI0dMwUqBM5L+BfeShAWIxIVeZ1pqTaBeh4NByx4Gl2RoiZCmKKxzQWb1RT5XzY6LJnDp7Gztfhq7POPcwLCbtHgpacP6Ji0LHv+1MEhEw0np1Y9cCalOXhxiOEEo5F/gj4czZYfYxcfaulofCYceg1FEUcgkozR5lwasU7ysZ6I4re4aH8bx38xC4lmRZtAe73+mVnB6RAkxuTRntPwIwmqXhHO5X3289DEqrALFXR6xwuZgzLe2G/6SOn4YWvdJF6P/yY8836Gga7jQR2yz7Hv1H6+B+4s3i9N7owcn+CY88+VWNjZtk9CNRzcWXMg=="
