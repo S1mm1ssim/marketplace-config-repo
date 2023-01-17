@@ -3,4 +3,4 @@ reactive-feign:
     client:
       registration:
         USER-SERVICE:
-          client-secret: "{cipher}AQA2omCm32hZWbyP2gzqQxsLpRWyNm8rPCag4HeZ7l734BFEz6hAffUueDXT9kBgDlHkdYizTGc2dWddbRIcP7imtkhXpp6gWBGG4y3uDP9S3OH0MecvCNu/O4kl9gF2WR7uzfxECWkI0Q5WvcCnMNOAfq9wklCMSP8ZZnFl4efpKHOFrpfZCD8PdFlwjzhNXr0/akdnrKRdHnQrrC+jas7iTWACw4BxhL0C9PkmqPd7PjcV0a++uhj/jgFC2ulBhm9rmeSsY+1AP4Dzb4OS+SfSlO6FsN8qygZW7kjzmZurr0qKppV/WAh7jdTTufesLGFBu6uBRXkH0Z/lcnomUCle0JV/7Qdmzh5GsS9joQMC7WZRyjQ+4MJ43gynwE5t/kueuMtUjTCK5aftIoCQe3p5UlkxjmLjiDnpqkxtqNdMNQ=="
+          client-secret: "{cipher}AQBKepRkKL1KIvrqe7GT6LM53QsoIPvvRmXb2cZO2c/iR+6qkRagJs6XfMa8W/j8ArSeoVJX/YWM8EkvtQznBq8qbGMgD79fBs8XmzEToHQvZ8xMiSVineU0I42qlAIp/ZzN3x845M36CKXhoZiYOuG/zZKVW1Qel/Vw1b69biO0QuJMNWHxr1VMNDEt1q0DfYoF5MkN3I4RXL/6LdRgSCGaYgbrVAlxwuwwWLzqzVi3m5QuRLVC8SOoffkG+LdpatCkTo1q06l8VMT/+svxqntF2xsU+5vHKxok4aZU7mgTXMa5yvAkV/uUD4p9KIWNO0DCM0Jrm8skymNPQo8J/F3Dfmm4lgp6F1CH393MzSuToq0UVbH/E7PdL3ImriqWEtCO0taNpOVZwG0ptnWpeUgpNj2bWOCfAZGow5/r+iB2Xw=="
