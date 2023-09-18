@@ -9,7 +9,7 @@ spring:
           CLIENT-SERVICES:
             authorization-grant-type: client_credentials
             client-id: user-transaction-service
-            client-secret: "{cipher}AQAwNIbGA+1jXeIvLzq38Y8OQ/Cg7eBGdy0ir5tK/DTycLOhCk5ZJu9LTh43Hf1r1D7O3juUKpiPjXt2h/5gXpuhFF5Ks2Kw3p0cyiMR+91+C6Kq6Ap2d6+O/zVQbg0/OPsrI/anovji9yo4mOM467hIz/zyOasDrLFrRv/4QYGmEWC0Vo2XqxNAQQVLYunEwBaERoRqdPHtF5YDrNsO18fxrHfws2TeUQjVyAuIZJX2nqDT+hYPYRUr/sIyyZjzA98IBUeoWrGXSKRYELXWvnQeLj0BqlL1VNVL1dgNidYBpVXGQd4V18rT00KMBUtd8g02IkixVkwysbciAokrU9J6PmPbTRel2NztKhNHCcyzyk2dRqS863+f3LS3BGZPOaYyG7w5SVkj8F+J/tY5vNZAMFgXHu+b4S7hLo33s+moEA=="
+            client-secret: "{cipher}AQAxrQ8L4wZBMMDurshYx+LMbtjKevhRLeGlJWVjy2lz5HX0ZS0VxTB0BAeetrAypLaWuQbq97vKV8GFyxafEFbFDrOpa3UiJHdDiZkfHUbE+lR0ohOpBtNMuzJ4DWjJtyocPOXF6Vp3bHLI+33f448uGsMdkwK2s8RNX3TV60MSZujK3e4cACMYsIL1+VnO6P2Wxr2mcsrzN4FjamVFfiYdU9mQYWIH/Fr1XHDQuFZNrcl3q3md4ByLJn3sfoBfLeZOOL87n4SReI0ofsEjXV9w2N4gBWUck6D2hfdUknuaYaCJrEp4O+VdASW2Tyxeibg2ubFSlNePSsW+iLXVsRq9zznL6P68b5JhEsS4rQldNHfuZEZv951B4neImgiwF0RDQuJf3ZBon2QJ7e0/1KFc5HoKsAJbm7zugk8g1iy7dQ=="
         provider:
           CLIENT-SERVICES:
             token-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
