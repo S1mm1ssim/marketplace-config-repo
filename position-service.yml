@@ -13,19 +13,18 @@ spring:
       # oauth2:
       client:
         registration:
-          USER-SERVICE:
-            authorization-grant-type: client_credentials
-            client-id: position-service
-            client-secret: "{cipher}AQBPpfhII9cAs3QqGF9FL6rtfa5gjlt8jQOSZSold9OkorCVCHW1k1hRV211ZuduMlg5P4iitvIH7mRA75R4wmAMpty+KgwustNLp3qklZJc66HQyemBrXK/U00lazRN8DzFS8bJLgSLNBchq3588O0kosqGwzkw4XWUl4m7U/8btgE5NvyZ4JjIUjNMaYi8XM0CQ9qmPV+/24Ieyk5i3rmyC0ceIP71GdlCBvVaajSxA3Bsr7WZSDm6nLZZh0v8f/JH38hCAvIqMhTIEmk2J2/3IsMkcMkvn3EwWo8Wvyb/5M1kZYFAqbpNQtKYk0yD/zrwtUoOvCbQxsajQFOE7IwiF26lfDxLZJGSx8jeegs8sAqIS6lFo+sYGSPw9W+sucPxkBXvULGEpsSPT6glOpJwuNbrTkWQxAfg9c2zcGvjeA=="
-          COMPANY-SERVICE:
+          CLIENT-SERVICES:
             authorization-grant-type: client_credentials
             client-id: position-service
             client-secret: "{cipher}AQBPpfhII9cAs3QqGF9FL6rtfa5gjlt8jQOSZSold9OkorCVCHW1k1hRV211ZuduMlg5P4iitvIH7mRA75R4wmAMpty+KgwustNLp3qklZJc66HQyemBrXK/U00lazRN8DzFS8bJLgSLNBchq3588O0kosqGwzkw4XWUl4m7U/8btgE5NvyZ4JjIUjNMaYi8XM0CQ9qmPV+/24Ieyk5i3rmyC0ceIP71GdlCBvVaajSxA3Bsr7WZSDm6nLZZh0v8f/JH38hCAvIqMhTIEmk2J2/3IsMkcMkvn3EwWo8Wvyb/5M1kZYFAqbpNQtKYk0yD/zrwtUoOvCbQxsajQFOE7IwiF26lfDxLZJGSx8jeegs8sAqIS6lFo+sYGSPw9W+sucPxkBXvULGEpsSPT6glOpJwuNbrTkWQxAfg9c2zcGvjeA=="
         provider:
-          USER-SERVICE:
+          CLIENT-SERVICES:
             token-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
-          COMPANY-SERVICE:
-            token-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
+
+feign:
+  oauth2:
+    enabled: true
+    clientRegistrationId: "CLIENT-SERVICES"
 
 feign-clients:
   user-client:
