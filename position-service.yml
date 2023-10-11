@@ -32,6 +32,10 @@ reactive-feign-clients:
     name: USER-SERVICE
     url: "${USER_SERVICE_URL:}"
     path: "/api/v1/users"
+  company-client:
+    name: COMPANY-SERVICE
+    url: "${COMPANY_SERVICE_URL:}"
+    path: "/api/v1/companies"
 
 default:
   page:
