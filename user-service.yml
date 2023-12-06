@@ -9,7 +9,7 @@ spring:
           COMPANY-SERVICE:
             authorization-grant-type: client_credentials
             client-id: user-service
-            client-secret: "{cipher}AQBdunog+NA6J/rDJkgoaJOu8nhxke6QpwVooiFdAkAAzTPTCNL6gmGo9SFYItM8BT9N/iEhAK/68ZzAyLIoFLqfO0stmt2oJCkpBFhEkrgFb/4Cz2py6GXNpAPfzkSLp+TZYcgXJ+XVZ1h8PTLB7nvhxk5DDehXXS8SYWAHQbtnPY3E4RUZNG9KSd8QMPxG16Y8HuzfWfNmBJaJxmZme7658U9vipljKABxkboN5sXkZCYQIF7ZVDwEFeVp4qzgv6+iX2myY7svQyO0Fc/9ntLKXIy0veip4kSSiuTfxTVbpXa46RKROuCIRoIgPg0tWOwwGv2R6NEp18YvAJf8jsf57DVKnI1rlrd8cYzY/vIh90IFWZScJznRXqAWRMkzfwqrdTgQPGIkqDHhol/lBxPCewqSbvNdMYxJMftylWwkeg=="
+            client-secret: "{cipher}AQCJdlYM9CoQ2lGpx1J/SiMKg0UFq/ZhtRLRNjiqYOGqrdck5O6+uhdemGlmGzPpb7MzANFcOPOaYLJb0dzUSRmWU1Q6gbyNz+wpw5AHJdsa/RsQzbwrYfc1xq3m6DY36YTEZboiqtr5DrbkF7m8MA/06MSXVDlYRONUAj4qs9WO3Py1UILmrLkE/dNTiAzYjGt6JxAXgu6Qlrmdt4X4ou2I8hKjjT08lNvY+R1dWnV1zCHr/065Rnlvy1I8LFZYcwCSmXPvAUGyU9BGNb1KKFzgiz+ExP4vje2EXoXTuIbYdIGIkeb1Fr3nnuLGPAHV1jssAVKE7rTpJpvpdNAqCG9Ezo+gKLSVtfTs3bdDQa6pXe4BMHp4CnJjZ8c5M68j8xoatNdLSqMRzgaLYLlPVVVi07TYBEy0EMSMVMqZGuxEcQ=="
         provider:
           COMPANY-SERVICE:
             token-uri: "${KEYCLOAK_URI:http://localhost:8080}/realms/marketplace/protocol/openid-connect/token"
@@ -37,7 +37,7 @@ idm:
   realm-name: "marketplace"
   server-url: "${KEYCLOAK_URI:http://localhost:8080}"
   client-id: "idm-client"
-  client-secret: "{cipher}AQArX9J0TP2qzZmlqrwGdiHvBtSzB/EFT54wKmhBSpF03WD74cZE+PP/qAFwcJquI5iccwLEJOCuLP/G7V+Zoc75V0HTe23IGATmStfMfK7E1OeO9dwFXt1u7O7iY7/QcHJfsGt+NxiLyvSSWopVa9Ok4GTy03XmMtK4gNVW8Z871Iz96tG3weyx9vfwebq1DA9VXzlX5RFHAJFFNTJ+B85xNYCQSt8V199rWnd1vYk5WyoXYjCBdtmkEbtdPP8/YeWDyOeGLlKXJdQhECq5ESX+CbwOy2RLymkj1C1skb27+qCNGZfcmJ+IYOauWfB+AU3oNe0IoyX/+rYF3xM9mmXaC97SHzleSrdFEmRSKEaU491ynPjYWRRSP1kSBgd207Hp7UMqbomFS1Fq6cYXbkCRrsozgWiOl+I0ACsc8jrqCQ=="
+  client-secret: "{cipher}AQAznOPuU1VGahHn4/t+fyVAkDX8t0P2mWfru654uFJjfypexYAEfBAGZgjCfhzweGXfQJZG/T21C8Mle8DWlCQQAMjTYT8sZEK07adOw1v2lMakcYLd28xgnFG0MFM5gXeGUMYEkBBoBQEOluCAQpcWiNK/q9u1gdkDp9w4/408pxqA5u8KqAIDg2+9Ettbh3v+MxuF1dv7h1yXOXyJo7Q5LrTv3Z+UJMSgl4/RFBAz6t6T0QJpcCR0tXqJHHjosXIG1IUkyTtDFskURpxlZT05IkwQo3F4qtFuz1/98jag5aShDOMtSdg4be6DMQy7Pg6k13Zrsx8ORRg9VpuD1HCFJ5/88LxOT/bV6uMH4RJS0R8ejlr5b/dKjbKytgwDTupeK+4AMq596LOsGnD7vtT6et3abW5T+wbFAIw3Iy1v8A=="
   admin-username: "idm-admin"
   admin-password: "{cipher}AQAxdadv/vSsXGgrBqTRENkk1/Vq2Z17U1PqYeZ34aWqCeNlrBvAo2I8n2Autvn8x3eQOoO0fqTrSqR8f35gW/19owtDzc/vUmPLHPesaaQCfJ4Zltoo6Ixf/NJTzE+T09hWl5yJbFagD2269DdIb+BYGymIhmcuwEtJQvxiJlrBL3CtDNTG5x0sLZtZqHsf69Zz8MZXg7cFiYx5p7pFU2OuAdlkCPDDVZlKqtOoVRbJgpn3+j7XmuHKCyQcASoGWlQQqxTCWyKopyyYSpFE4yBYwiol5UuuU1oFsW+wCYMlqsF/m14bU9adZXPK3D6u1mYcT+F1b+CzxSGdxl0ag0R3HwLrgl99eNHwp8xGlaYsG7pYuzxbgeYR8hS84ce8n+c="
   pool-size: 10
